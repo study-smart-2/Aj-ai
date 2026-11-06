@@ -23,7 +23,7 @@ jobs:
 
       - name: Extract project
         run: |
-          unzip -q AJ_v1_1_Fixed_Source.zip -d extracted
+          unzip -q AJ_v1_3_Screen_Control_Reading_Fix.zip -d extracted
 
       - name: Build APK
         working-directory: extracted/PriyaAI
